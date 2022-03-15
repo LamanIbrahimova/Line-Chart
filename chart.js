@@ -1,24 +1,7 @@
 var ctx = document.getElementById("myChart");
 
 var myChart = new Chart(ctx,{
-  // type: 'doughnut',
-  // data:{
-  //   labels: ["yes", 'no'], 
-  //   datasets: [{
-  //     data: [45,78],
-  //     backgroundColor: ["#49A9EA", "#36CAAB"]
-
-  //   }]
-  // }, 
-  // options:{
-  //   title:{
-  //     text:"Do you like doughnut?",
-  //     display: true
-
-  //   }
-  // }
-
-
+  
   type:'line',
   data:  {
     labels:["24","145","178", "96"] ,
